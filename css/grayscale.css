@@ -163,6 +163,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    margin-top: -20px;
 }
 
 .intro .intro-body {
@@ -353,7 +354,8 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding-bottom: 20px;
+    padding-top: -100px;
 }
 
 footer p {
@@ -383,4 +385,18 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+#about {
+    height: 100vh;
+}
+
+#location {
+    padding-top: 0px;
+}
+
+#update {
+    padding-top: 150px;
+    padding-bottom: 0;
+}
+
 
